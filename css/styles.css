@@ -622,7 +622,8 @@ footer {
     top: 24px;
     right: 24px;
     line-height: 0;
-    padding: 8px;
+    width: 24px;
+    height: 24px;
     border: 1px solid rgba(0, 0, 0, 0.1);
     border-radius: 50%;
     padding: 0;
@@ -637,6 +638,7 @@ footer {
 .close-button:focus {
     fill: #FFFFFF;
     background-color: #404BBF;
+    border: none;
 }
 
 .close-button-icon {
