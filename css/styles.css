@@ -674,6 +674,7 @@ footer {
 
 .review-form-input-wrapper {
     position: relative;
+
 }
 
 .review-form-input {
@@ -729,6 +730,10 @@ footer {
 
 .review-form-comment::placeholder {
     color: rgba(46, 47, 66, 0.40);
+}
+
+.review-form-field-wrapper-comment {
+    margin-bottom: 16px;
 }
 
 .review-form-checkbox-wrapper {
