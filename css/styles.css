@@ -513,14 +513,13 @@ footer {
 }
 
 .footer-subscribe-form {
-    position: relative;
-    margin-bottom: 16px;
+    position: relative;    
     margin-right: 24px;
 }
 
-.footer-subscribe-form-label {
+.footer-subscribe-form-name {
     display: block;
-    color: #FFF;
+    color: #FFFFFF;
     font-family: Roboto, sans-serif;
     font-size: 16px;
     font-weight: 500;
@@ -529,29 +528,34 @@ footer {
     margin-bottom: 16px;
 }
 
-.footer-subscribe-wrapper {
+.subscribe-form {
     display: flex;
     gap: 24px;
 }
 
 .footer-subscribe-input {
-    width: 100%;
+    width: 264px;
     height: 40px;
     padding-left: 16px;
     border-radius: 4px;
     border: 1px solid #FFF;
     box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
-    background: transparent;
-}
+    background-color: transparent;
+    font-size: 12px;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    padding-left: 16px;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
+    border-radius: 4px;
+    color: #ffffff;
 
-.footer-subscribe-form-button {
-    position: relative;
-    cursor: pointer;
-    width: 165px;
-    height: 40px;
 }
 
 .footer-subscribe-button {
+    position: relative;
+    cursor: pointer;
+    min-width: 165px;
+    height: 40px;
     display: flex;
     padding: 8px 24px;
     justify-content: center;
@@ -559,7 +563,7 @@ footer {
     gap: 16px;
     border-radius: 4px;
     border: none;
-    background: #4D5AE5;
+    background-color: #4D5AE5;
 }
 
 .footer-subscribe-button-text {
